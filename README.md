@@ -21,7 +21,7 @@ This is a love jar for Bence (A digital gift). This is also a just because gift 
       box-sizing: border-box;
       margin: 0;
       padding: 0;
-      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      font-family: 'Balonku', Alex-Brush, Pacifico, Tangelo;
     }
 
     body {
@@ -324,7 +324,7 @@ This is a love jar for Bence (A digital gift). This is also a just because gift 
 
   <header>
     <h1 id="pageTitle">Reasons I Love You</h1>
-    <p class="subtitle" id="pageSubtitle">Tap the jar whenever you need a reminder ❤️</p>
+    <p class="subtitle" id="pageSubtitle">Tap the jar!:3</p>
   </header>
 
   <div class="jar-wrapper" id="jar" onclick="pickReason()">
@@ -333,13 +333,13 @@ This is a love jar for Bence (A digital gift). This is also a just because gift 
     <div class="jar-body" id="jarBody">
       <div class="jar-label">
         <span>Tap to Open</span>
-        <small id="counterText">10 notes inside</small>
+        <medium id="counterText">1000 notes inside</medium>
       </div>
     </div>
   </div>
 
   <div class="controls">
-    <button class="btn-primary" onclick="pickReason()">Pull a Note ✨</button>
+    <button class="btn-primary" onclick="pickReason()">Pull a Note <3</button>
     <button class="btn-secondary" onclick="openEditor()">Customize Notes ✏️</button>
   </div>
 
@@ -359,7 +359,7 @@ This is a love jar for Bence (A digital gift). This is also a just because gift 
   <div class="modal-overlay" id="editorModal" onclick="closeEditor(event)">
     <div class="editor-card" onclick="event.stopPropagation()">
       <h2>Customize Your Jar</h2>
-      <p>Personalize the title and add your own sweet notes or inside jokes.</p>
+      <p>Personalize the title and add your own sweet notes or inside jokes blluulul>:3.</p>
 
       <div class="input-group">
         <label><strong>Jar Title:</strong></label>
